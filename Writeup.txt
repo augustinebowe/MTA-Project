@@ -1,0 +1,29 @@
+﻿Who is in Manhattan after the Pandemic?
+
+
+Using MTA turnstile data to identify trends in selected areas of Manhattan after the COVID 19 pandemic
+
+
+Abstract:
+The COVID 19 pandemic drastically reduced the number of people coming in and out of Manhattan on a daily basis, resulting in countless businesses closing, leaving vacant commercial leases available.  MTA turnstile data from Fulton Street, Grand Central, 86th Street and 125th Street shows that, while subway ridership is down significantly across the board, the largest decrease has been on weekdays, suggesting that these areas in Manhattan now have a different pool of potential customers for new businesses.  New York City data on the number of new business licenses in the area of each of these stations suggests that Fulton Street is the most likely candidate for opening new businesses.
+
+
+
+
+Procedure
+After downloading into SQL MTA records of turnstile entries and exits from turnstiles at four selected stations, Fulton Street, Grand Central, 86th Street and 125th Street, I imported them into a Pandas dataframe, and calculated the average daily entries at each station on weekdays and weekends in 2019, 2020 and 2021.  I only looked at the months of April through December of each year, because data from January to March of 2020 would have been normal, as the pandemic hadn’t begun.
+
+
+I also used NYC’s database of business licenses, to find the number of new business licenses in the same ZIP Code as each of the selected stations to get a sense of the level of new commercial activity in each area.
+
+
+Results
+All of the stations I looked at had a sharp decline in entries in 2020 and 2021 as compared to 2019.  In 3 of the stations (Fulton Street, Grand Central, and 86th Street), the ratio of weekend traffic to weekday traffic increased significantly in 2020 and 2021.  This suggests that, while commuters and office workers haven’t returned to those areas of Manhattan, people are now visiting those areas for leisure as opposed to work, and as a result, Commercial Real Estate firms in the areas should look for tenants who cater to residents or visitors as opposed to people working in the area.
+The 125th Street Station saw a sharp decline in ridership after 2019, but the ratio of weekend to weekday traffic stayed relatively stable, suggesting that the demographics of this area haven’t changed significantly.
+
+
+Data showed that there were generally fewer new business licenses after 2019, though 86th street saw a big increase in 2021, and 125th street saw sharp declines in both 2020 and 2021.
+
+
+Conclusion
+The COVID 19 pandemic has meaningfully changed the demographics of 3 of the 4 areas of Manhattan examined in this project.  The drastic decrease in subway traffic in these areas has come largely on weekdays, meaning there are now fewer commuters and workers in these areas. Data on new business licenses suggests that the 86th Street area is already adapting to the new demographics, while the Fulton St and Grand Central have not
